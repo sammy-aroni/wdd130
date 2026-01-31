@@ -1,5 +1,5 @@
 * {
-    margin: 5;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -94,7 +94,8 @@ article {
     border: black;
 }
 
-footer img {
+.socialmedia img {
     width: 40px;
     height: auto;
+    margin: 0 8px;
 }
