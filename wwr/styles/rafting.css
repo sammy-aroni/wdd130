@@ -6,7 +6,7 @@
 
 :root {
     --primary-color: #14396c;
-    --secondary-color: #ebab76;
+    --secondary-color: #e48d45;
     --accent1-color: #242724;
     --accent2-color: #f8f88a;
     --heading-font: "Anton", "Georgia", serif;
@@ -34,7 +34,7 @@ h1,
 h2 {
     font-family: var(--heading-font);
     color: white;
-    background-color: var(--accent1-color);
+    background-color: var(--secondary-color);
     padding: 10px;
     text-align: center;
 }
