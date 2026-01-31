@@ -10,7 +10,7 @@
     --accent1-color: #242724;
     --accent2-color: #f8f88a;
     --heading-font: "Anton", "Georgia", serif;
-    --body-font: OpenSans, Monserrat, snas-serif;
+    --body-font: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -34,7 +34,7 @@ h1,
 h2 {
     font-family: var(--heading-font);
     color: white;
-    background-color: var(--secondary-color);
+    background-color: var(--accent1-color);
     padding: 10px;
     text-align: center;
 }
@@ -78,7 +78,7 @@ h1 {
     color: white;
 }
 
-article {
+.hero article {
     position: absolute;
     top: 150px;
     width: 95%;
