@@ -8,13 +8,13 @@
     --primary-color: #293c86;
     --secondary-color: #61e5f4;
     --accent1-color: #2b5326;
-    --accent2-color: #e9c46a;
+    --accent2-color: #574004;
     --heading-font: "Anton", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
 
 header {
-    background-color: rgb(23, 22, 22);
+    background-color: rgb(255, 255, 255);
     color: var(--accent2-color);
 }
 
