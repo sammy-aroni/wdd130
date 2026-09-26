@@ -44,7 +44,7 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: var(--accent1-color);
     text-decoration: none;
     padding: 8px;
 }
@@ -52,7 +52,7 @@ nav a {
 h1,
 h2 {
     font-family: var(--heading-font);
-    color: white;
+    color: var(--accent1-color);
 }
 
 nav,
@@ -80,6 +80,7 @@ article {
     padding: 16px;
     text-align: center;
     background-color: var(--primary-color);
+    color: var(--accent1-color);
     opacity: 0.85;
 }
 
@@ -98,11 +99,12 @@ article {
     float: right;
     width: 125px;
     margin-left: 15px;
-    border: 2px solid white;
+    border: 2px solid var(--accent1-color);
 }
 
 section h2 {
     background-color: var(--primary-color);
+    color: var(--accent2-color);
     padding: 10px;
     text-align: center;
 }
@@ -124,7 +126,5 @@ section h2 {
 
 footer {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
+    justify-content: spa
 }
