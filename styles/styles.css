@@ -1,20 +1,51 @@
-main {
-    max-width: 840px;
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: darkblue;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    display: block;
+    padding: 10px;
+}
+
+h1 {
+    color: black;
+    padding: 10px;
+    border-bottom: 2px solid black;
 }
 
 main img {
     width: 150px;
     height: auto;
+    border: 1px solid black;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+    float: right;
+}
+
+p {
+    padding: 10px;
 }
 
 aside {
-    width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgb(0 0 0 / 0.2);
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
     text-align: center;
+    position: relative;
+}
+
+aside h2 {
+    position: absolute;
+    top: 20px;
+    left: 130px;
 }
 
 aside img {
@@ -22,12 +53,31 @@ aside img {
     height: auto;
 }
 
-p {
-    padding: 0;
-}
-
 footer {
     margin-top: 15px;
-    border-top: 1px solid #000;
-    text-align: center;
+    border-top: #333;
+    text-align: center
+}
+
+/* Class Selectors */
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 20%);
+    padding: 1rem;
+    background-color: lightgrey;
+    color: black;
+    width: 20rem;
+}
+
+header,
+footer,
+.grid {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 1rem;
 }
