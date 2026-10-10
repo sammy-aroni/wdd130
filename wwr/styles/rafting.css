@@ -189,7 +189,6 @@ footer p {
     height: auto;
 }
 
-```css
 /* Contact Us Page */
 
 .contact-page {
@@ -314,5 +313,3 @@ footer p {
 .contact-form-section button:hover {
     background-color: var(--secondary-color);
 }
-
-```
