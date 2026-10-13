@@ -24,29 +24,69 @@
     </header>
 
     <main class="contact-page">
-        <h1>Contact Us</h1>
-
         <section class="company-info">
-            <h2>Get in Touch</h2>
+            <h1>Wild Pad Rafting</h1>
+            <p>
+                <strong>Address:</strong> Av. El Sol 612, Cusco, Peru<br>
+                <strong>Phone:</strong> +51 958 796 050<br>
+                <strong>Email:</strong> info@wildpadrafting.com
+            </p>
+        </section>
 
-            <div class="contact-details">
-                <div>
-                    <h3>Wild Pad Rafting</h3>
-                    <p><strong>Address:</strong> Av. el Sol 612, Cusco, Peru</p>
-                    <p><strong>Phone:</strong> +51 958 796 050</p>
-                    <p><strong>Email:</strong> info@wildpadrafting.com</p>
-                </div>
-
+        <div class="contact-main">
+            <div class="map-container">
                 <iframe
                   src="https://maps.google.com/maps?q=Av.%20El%20Sol%20612%2C%20Cusco%2C%20Peru&output=embed"
                   width="400" height="250" title="Map showing Av. El Sol 612, Cusco, Peru"
                   loading="lazy">
                 </iframe>
             </div>
-        </section>
+
+            <section class="contact-form-section">
+                <form action="#" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email"
+                      required>
+
+                    <fieldset>
+                        <legend>Message Purpose</legend>
+
+                        <label for="general">
+                            <input type="radio" id="general" name="purpose" value="general"
+                              required>
+                            General Inquiry
+                        </label>
+
+                        <label for="reservation">
+                            <input type="radio" id="reservation" name="purpose" value="reservation">
+                            Reservation Question
+                        </label>
+
+                        <label for="suggestion">
+                            <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                            Website Suggestion
+                        </label>
+                    </fieldset>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4"
+                      placeholder="Type your message here" required></textarea>
+
+                    <label for="newsletter" class="newsletter-label">
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                        Please subscribe me to the monthly newsletter
+                    </label>
+
+                    <button type="submit">Get in Touch!</button>
+                </form>
+            </section>
+        </div>
 
         <section class="team">
-            <h2>Meet Our Team</h2>
+            <h2>We Are Here to Serve You</h2>
 
             <div class="team-gallery">
                 <figure>
@@ -66,48 +106,6 @@
                 </figure>
             </div>
         </section>
-
-        <section class="contact-form-section">
-            <h2>Send Us a Message</h2>
-
-            <form action="#" method="post">
-                <label for="name">Full Name:</label>
-                <input type="text" id="name" name="name" required>
-
-                <label for="email">Email Address:</label>
-                <input type="email" id="email" name="email" required>
-
-                <fieldset>
-                    <legend>What is the purpose of your message?</legend>
-
-                    <label for="general">
-                        <input type="radio" id="general" name="purpose" value="general" required>
-                        General Inquiry
-                    </label>
-
-                    <label for="reservation">
-                        <input type="radio" id="reservation" name="purpose" value="reservation">
-                        Reservation Question
-                    </label>
-
-                    <label for="suggestion">
-                        <input type="radio" id="suggestion" name="purpose" value="suggestion">
-                        Website Suggestion
-                    </label>
-                </fieldset>
-
-                <label for="message">Your Message:</label>
-                <textarea id="message" name="message" rows="5" required></textarea>
-
-                <label for="newsletter" class="newsletter-label">
-                    <input type="checkbox" id="newsletter" name="newsletter">
-                    Please subscribe me to the monthly newsletter
-                </label>
-
-                <button type="submit">Send Message</button>
-            </form>
-        </section>
-
     </main>
 
     <footer>
