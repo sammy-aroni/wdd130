@@ -303,6 +303,7 @@ footer p {
 }
 
 .team h2 {
+    color: var(--primary-color);
     text-align: center;
     margin-bottom: 15px;
 }
@@ -362,8 +363,4 @@ footer p {
         grid-column: 1;
         grid-row: auto;
     }
-}
-
-.team h2 {
-    color: var(--primary-color);
 }
