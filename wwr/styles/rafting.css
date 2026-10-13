@@ -363,3 +363,7 @@ footer p {
         grid-row: auto;
     }
 }
+
+.team h2 {
+    color: var(--primary-color);
+}
